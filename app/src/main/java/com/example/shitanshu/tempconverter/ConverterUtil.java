@@ -1,0 +1,28 @@
+package com.example.shitanshu.tempconverter;
+
+/**
+ * Created by Shitanshu on 1/21/2017.
+ */
+
+public class ConverterUtil {
+
+    /**
+     * @param fahrenheit
+     * @return
+     */
+    // converts to celsius
+    public static double convertFahrenheitToCelsius(float fahrenheit)
+    {
+        return ((fahrenheit - 32) * 5.0 / 9.0);
+    }
+
+    /**
+     * @param celsius
+     * @return
+     */
+    // converts to fahrenheit
+    public static double convertCelsiusToFahrenheit(float celsius) {
+        return ((celsius * (9.0 / 5.0)) + 32);
+    }
+
+}
